@@ -3,4 +3,4 @@
 [![linter-check](https://github.com/gedo19/backend-project-lvl1/actions/workflows/github-actions.yml/badge.svg?event=push)](https://github.com/gedo19/backend-project-lvl1/actions/workflows/github-actions.yml)
 
 ### Maintainability
-[![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
+[![Maintainability](https://api.codeclimate.com/v1/badges/8c57ceebc0e934b85f8a/maintainability)](https://codeclimate.com/github/gedo19/backend-project-lvl1/maintainability)
