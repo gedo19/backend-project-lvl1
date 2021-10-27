@@ -1,6 +1,7 @@
-import readlineSync from "readline-sync";
-import getName from "../cli.js";
-import getRandomNum from "../reusable/getRandomNum.js";
+import readlineSync from 'readline-sync';
+import getName from '../cli.js';
+import getRandomNum from '../reusable/getRandomNum.js';
+
 const questionCount = 3;
 
 const foo = () => {
@@ -9,20 +10,20 @@ const foo = () => {
   for (let questionNum = 1; questionNum <= questionCount; questionNum += 1) {
     const randomNumber = getRandomNum();
     console.log(`Question: ${randomNumber}`);
-    const answer = readlineSync.question("Your answer: ");
+    const answer = readlineSync.question('Your answer: ');
 
     const isNumberEven = randomNumber % 2 === 0;
 
-    const correctAnswer = isNumberEven ? "yes" : "no";
+    const correctAnswer = isNumberEven ? 'yes' : 'no';
 
     if (answer !== correctAnswer) {
       return console.log(`Let's try again, ${name}!`);
     }
 
-    console.log("Correct!");
+    console.log('Correct!');
   }
 
-  console.log(`Congratulations, ${name}!`);
+  return console.log(`Congratulations, ${name}!`);
 };
 
 foo();
