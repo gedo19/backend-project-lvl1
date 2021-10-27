@@ -4,6 +4,7 @@ jobs:
   lint:
     runs-on: ubuntu-latest
     steps:
-      - name: run eslint
-        run: |
-          make lint
+        uses: actions/checkout@2
+        uses: actions/node@v1
+      - name: lint
+        run: npx eslint .
