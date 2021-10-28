@@ -10,7 +10,6 @@ export default () => {
     const questionsCount = 3;
 
     for (let questionNum = 0; questionNum < questionsCount; questionNum += 1) {
-      const questionAndAnswer = [];
       const num1 = getRandomNum(1, 10);
       const num2 = getRandomNum(1, 10);
       const operator = operators[getRandomNum(0, 2)];
@@ -29,9 +28,7 @@ export default () => {
         default:
           break;
       }
-      questionAndAnswer.push(question);
-      questionAndAnswer.push(answer);
-      questionsAndAnswers.push(questionAndAnswer);
+      questionsAndAnswers.push([question, answer]);
     }
 
     return questionsAndAnswers;

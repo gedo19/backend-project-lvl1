@@ -9,14 +9,11 @@ export default () => {
     const questionsCount = 3;
 
     for (let questionNum = 0; questionNum < questionsCount; questionNum += 1) {
-      const questionAndAnswer = [];
       const num = getRandomNum(1, 30);
       const question = num;
       const isNumEven = num % 2 === 0;
       const answer = isNumEven ? 'yes' : 'no';
-      questionAndAnswer.push(question);
-      questionAndAnswer.push(answer);
-      questionsAndAnswers.push(questionAndAnswer);
+      questionsAndAnswers.push([question, answer]);
     }
 
     return questionsAndAnswers;
