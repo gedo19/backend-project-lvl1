@@ -1,26 +1,26 @@
-import readlineSync from 'readline-sync';
-import getName from '../reusable/greeting.js';
 import getRandomNum from '../reusable/getRandomNum.js';
+import playGame from '../index.js';
 
 export default () => {
-  const name = getName();
-  const questionsCount = 3;
-  console.log('Answer "yes" if the number is even, otherwise answer "no".');
+  const rule = 'Answer "yes" if the number is even, otherwise answer "no".';
 
-  for (let question = 1; question <= questionsCount; question += 1) {
-    const randomNumber = getRandomNum();
-    const isNumberEven = randomNumber % 2 === 0;
-    const correctAnswer = isNumberEven ? 'yes' : 'no';
-    console.log(`Question: ${randomNumber}`);
+  const genQuestionsAndAnswers = () => {
+    const questionsAndAnswers = [];
+    const questionsCount = 3;
 
-    const userAnswer = readlineSync.question('Your answer: ');
-
-    if (userAnswer !== correctAnswer) {
-      return console.log(`Let's try again, ${name}!`);
+    for (let questionNum = 0; questionNum < questionsCount; questionNum += 1) {
+      const questionAndAnswer = [];
+      const num = getRandomNum();
+      const question = num;
+      const isNumEven = num % 2 === 0;
+      const answer = isNumEven ? 'yes' : 'no';
+      questionAndAnswer.push(question);
+      questionAndAnswer.push(answer);
+      questionsAndAnswers.push(questionAndAnswer);
     }
 
-    console.log('Correct!');
-  }
+    return questionsAndAnswers;
+  };
 
-  return console.log(`Congratulations, ${name}!`);
+  playGame(rule, genQuestionsAndAnswers());
 };
