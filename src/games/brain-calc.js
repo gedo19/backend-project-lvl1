@@ -6,15 +6,29 @@ export default () => {
 
   const genQuestionsAndAnswers = () => {
     const questionsAndAnswers = [];
+    const operators = ['+', '-', '*'];
     const questionsCount = 3;
 
     for (let questionNum = 0; questionNum < questionsCount; questionNum += 1) {
       const questionAndAnswer = [];
-      const num1 = getRandomNum();
-      const num2 = getRandomNum();
-      const question = `${num1} + ${num2}`;
-      const sum = num1 + num2;
-      const answer = sum;
+      const num1 = getRandomNum(1, 10);
+      const num2 = getRandomNum(1, 10);
+      const operator = operators[getRandomNum(0, 2)];
+      const question = `${num1} ${operator} ${num2}`;
+      let answer = 0;
+      switch (operator) {
+        case '+':
+          answer = num1 + num2;
+          break;
+        case '-':
+          answer = num1 - num2;
+          break;
+        case '*':
+          answer = num1 * num2;
+          break;
+        default:
+          break;
+      }
       questionAndAnswer.push(question);
       questionAndAnswer.push(answer);
       questionsAndAnswers.push(questionAndAnswer);
