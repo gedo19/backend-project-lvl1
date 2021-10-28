@@ -1,22 +1,21 @@
 import readlineSync from 'readline-sync';
-import getName from '../cli.js';
+import getName from '../reusable/greeting.js';
 import getRandomNum from '../reusable/getRandomNum.js';
 
-const questionCount = 3;
-
-const foo = () => {
+export default () => {
+  const questionsCount = 3;
   const name = getName();
   console.log('Answer "yes" if the number is even, otherwise answer "no".');
-  for (let questionNum = 1; questionNum <= questionCount; questionNum += 1) {
+
+  for (let questionNum = 1; questionNum <= questionsCount; questionNum += 1) {
     const randomNumber = getRandomNum();
-    console.log(`Question: ${randomNumber}`);
-    const answer = readlineSync.question('Your answer: ');
-
     const isNumberEven = randomNumber % 2 === 0;
-
     const correctAnswer = isNumberEven ? 'yes' : 'no';
+    console.log(`Question: ${randomNumber}`);
 
-    if (answer !== correctAnswer) {
+    const userAnswer = readlineSync.question('Your answer: ');
+
+    if (userAnswer !== correctAnswer) {
       return console.log(`Let's try again, ${name}!`);
     }
 
@@ -25,5 +24,3 @@ const foo = () => {
 
   return console.log(`Congratulations, ${name}!`);
 };
-
-foo();
