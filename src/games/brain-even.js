@@ -3,11 +3,11 @@ import getName from '../reusable/greeting.js';
 import getRandomNum from '../reusable/getRandomNum.js';
 
 export default () => {
-  const questionsCount = 3;
   const name = getName();
+  const questionsCount = 3;
   console.log('Answer "yes" if the number is even, otherwise answer "no".');
 
-  for (let questionNum = 1; questionNum <= questionsCount; questionNum += 1) {
+  for (let question = 1; question <= questionsCount; question += 1) {
     const randomNumber = getRandomNum();
     const isNumberEven = randomNumber % 2 === 0;
     const correctAnswer = isNumberEven ? 'yes' : 'no';
