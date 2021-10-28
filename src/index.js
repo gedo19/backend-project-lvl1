@@ -17,7 +17,7 @@ export default (rule, questAndAnsw) => {
 
     if (userAnswer !== correctAnswer) {
       return console.log(
-        `'${userAnswer}' is wrong answer ;(. Correct answer is '${correctAnswer}')`,
+        `'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.\nLet's try again, ${name}!`
       );
     }
 
