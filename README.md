@@ -6,4 +6,4 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/8c57ceebc0e934b85f8a/maintainability)](https://codeclimate.com/github/gedo19/backend-project-lvl1/maintainability)
 
 ### brain-even game
-[![asciicast](https://asciinema.org/a/EyP8KyZCcuoSFEYKVWA9Vg9DN.svg)](https://asciinema.org/a/EyP8KyZCcuoSFEYKVWA9Vg9DN)
+[![asciicast](https://asciinema.org/a/3z4QO9jY1mNxY3772nmjtTvOF.svg)](https://asciinema.org/a/3z4QO9jY1mNxY3772nmjtTvOF)
