@@ -13,7 +13,7 @@
 2. `cd backend-project-lvl1/`
 3. `make install`
 4. `make publish`
-5. 'npm link'
+5. `npm link`
 
 ## HOW TO PLAY
 
