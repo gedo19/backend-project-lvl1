@@ -25,4 +25,4 @@
 
 ### brain-prime game
 
-[![asciicast](https://asciinema.org/a/ESZrQuiwuFguSxMY9LJ304dhm.svg)](https://asciinema.org/a/ESZrQuiwuFguSxMY9LJ304dhm)
+[![asciicast](https://asciinema.org/a/445396.svg)](https://asciinema.org/a/445396)
