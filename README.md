@@ -17,22 +17,34 @@
 
 ## HOW TO PLAY
 
-### brain-even game
+### commands
+
+| comand      | game |
+| --------- | -----:|
+| `brain-even`  | Is it an even number? |
+| `brain-calc`     | Solve simple expression |
+| `brain-gcd`      | Find greatest common divisor of two numbers |
+| `brain-progression`  | Find the missing number in progression |
+| `brain-prime`     | Is it an prime number? |
+
+### Preview
+
+#### brain-even game
 
 [![asciicast](https://asciinema.org/a/445150.svg)](https://asciinema.org/a/445150)
 
-### brain-calc game
+#### brain-calc game
 
 [![asciicast](https://asciinema.org/a/445151.svg)](https://asciinema.org/a/445151)
 
-### brain-gcd game
+#### brain-gcd game
 
 [![asciicast](https://asciinema.org/a/445152.svg)](https://asciinema.org/a/445152)
 
-### brain-progression game
+#### brain-progression game
 
 [![asciicast](https://asciinema.org/a/445393.svg)](https://asciinema.org/a/445393)
 
-### brain-prime game
+#### brain-prime game
 
 [![asciicast](https://asciinema.org/a/445396.svg)](https://asciinema.org/a/445396)
