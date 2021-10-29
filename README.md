@@ -7,6 +7,8 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/8c57ceebc0e934b85f8a/maintainability)](https://codeclimate.com/github/gedo19/backend-project-lvl1/maintainability)
 
+## HOW TO PLAY
+
 ### brain-even game
 
 [![asciicast](https://asciinema.org/a/445150.svg)](https://asciinema.org/a/445150)
