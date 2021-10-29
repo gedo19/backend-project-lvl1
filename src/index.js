@@ -24,5 +24,5 @@ export default (rule, questAndAnsw) => {
     console.log('Correct!');
   }
 
-  return console.log(`Congratulations, ${name}`);
+  return console.log(`Congratulations, ${name}!`);
 };
