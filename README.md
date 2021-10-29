@@ -7,6 +7,14 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/8c57ceebc0e934b85f8a/maintainability)](https://codeclimate.com/github/gedo19/backend-project-lvl1/maintainability)
 
+## INSTALL
+
+1. `git clone https://github.com/gedo19/backend-project-lvl1.git`
+2. `cd backend-project-lvl1/`
+3. `make install`
+4. `make publish`
+5. 'npm link'
+
 ## HOW TO PLAY
 
 ### brain-even game
