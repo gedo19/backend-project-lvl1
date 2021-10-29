@@ -4,6 +4,7 @@ import buildProgression from '../reusable/buildProgression.js';
 
 export default () => {
   const rule = 'What number is missing in the progression?';
+
   const genQuestionsAndAnsers = () => {
     const questionsAndAnsers = [];
     const questionsCount = 3;
