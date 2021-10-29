@@ -29,7 +29,7 @@ node v14+
 | `brain-calc`     | Solve simple expression |
 | `brain-gcd`      | Find greatest common divisor of two numbers |
 | `brain-progression`  | Find the missing number in progression |
-| `brain-prime`     | Is it an prime number? |
+| `brain-prime`     | Is it a prime number? |
 
 ### Preview
 
