@@ -16,20 +16,19 @@ node v14+
 1. `git clone https://github.com/gedo19/backend-project-lvl1.git`
 2. `cd backend-project-lvl1/`
 3. `make install`
-4. `make publish`
-5. `npm link`
+4. `npm link`
 
 ## HOW TO PLAY
 
 ### commands
 
-| comand      | game |
-| --------- | -----:|
-| `brain-even`  | Is it an even number? |
-| `brain-calc`     | Solve simple expression |
-| `brain-gcd`      | Find greatest common divisor of two numbers |
-| `brain-progression`  | Find the missing number in progression |
-| `brain-prime`     | Is it a prime number? |
+| comand              |                                        game |
+| ------------------- | ------------------------------------------: |
+| `brain-even`        |                       Is it an even number? |
+| `brain-calc`        |                     Solve simple expression |
+| `brain-gcd`         | Find greatest common divisor of two numbers |
+| `brain-progression` |      Find the missing number in progression |
+| `brain-prime`       |                       Is it a prime number? |
 
 ### Preview
 
