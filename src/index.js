@@ -16,7 +16,7 @@ const playGame = (rule, questionsAndAnswers) => {
 
     if (userAnswer !== correctAnswer) {
       return console.log(
-        `'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.\nLet's try again, ${name}!`
+        `'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.\nLet's try again, ${name}!`,
       );
     }
 
