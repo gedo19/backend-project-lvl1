@@ -8,7 +8,7 @@ const playGame = (rule, questionsAndAnswers) => {
   console.log(`Hello, ${name}!`);
 
   console.log(rule);
-
+  /* eslint-disable-next-line */
   for (const questionAndAnswer of questionsAndAnswers) {
     const [question, correctAnswer] = questionAndAnswer;
     console.log(`Question: ${question}`);
@@ -16,7 +16,7 @@ const playGame = (rule, questionsAndAnswers) => {
 
     if (userAnswer !== correctAnswer) {
       return console.log(
-        `'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.\nLet's try again, ${name}!`,
+        `'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.\nLet's try again, ${name}!`
       );
     }
 
