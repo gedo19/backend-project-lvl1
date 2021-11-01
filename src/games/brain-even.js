@@ -11,8 +11,7 @@ export default () => {
   for (let questionNum = 0; questionNum < questionsCount; questionNum += 1) {
     const num = getRandomNum(1, 30);
     const question = num;
-    const isNumEven = isEven(num);
-    const answer = isNumEven ? 'yes' : 'no';
+    const answer = isEven(num) ? 'yes' : 'no';
     questionsAndAnswers.push([question, answer]);
   }
 

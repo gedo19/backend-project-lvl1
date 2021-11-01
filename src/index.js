@@ -15,15 +15,16 @@ const playGame = (rule, questionsAndAnswers) => {
     const userAnswer = readlineSync.question('Your answer: ');
 
     if (userAnswer !== correctAnswer) {
-      return console.log(
+      console.log(
         `'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.\nLet's try again, ${name}!`,
       );
+      return;
     }
 
     console.log('Correct!');
   }
 
-  return console.log(`Congratulations, ${name}!`);
+  console.log(`Congratulations, ${name}!`);
 };
 
 export { playGame, questionsCount };

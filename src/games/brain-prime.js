@@ -20,9 +20,8 @@ export default () => {
 
   for (let questionNum = 0; questionNum < questionsCount; questionNum += 1) {
     const num = getRandomNum(1, 30);
-    const isNumPrime = isPrime(num);
     const question = num;
-    const answer = isNumPrime ? 'yes' : 'no';
+    const answer = isPrime(num) ? 'yes' : 'no';
     questionsAndAnsers.push([question, answer]);
   }
 
