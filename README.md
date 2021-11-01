@@ -16,7 +16,6 @@ node v14+
 1. `git clone https://github.com/gedo19/backend-project-lvl1.git`
 2. `cd backend-project-lvl1/`
 3. `make install`
-4. `npm link`
 
 ## HOW TO PLAY
 
