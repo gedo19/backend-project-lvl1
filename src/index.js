@@ -8,7 +8,6 @@ const playGame = (rule, questionsAndAnswers) => {
   console.log(`Hello, ${name}!`);
 
   console.log(rule);
-  /* eslint-disable-next-line */
   for (const questionAndAnswer of questionsAndAnswers) {
     const [question, correctAnswer] = questionAndAnswer;
     console.log(`Question: ${question}`);
