@@ -9,10 +9,3 @@ parserOptions:
 rules:
   no-console: off
   import/extensions: off
-<<<<<<< HEAD
-  no-restricted-syntax:
-    - off
-    - ForOfStatement
-=======
-  no-restricted-syntax: off
->>>>>>> parent of 0611af4 (rm rule)
